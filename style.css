@@ -95,6 +95,7 @@ header h2 {
   justify-content: left;
   text-align: left;
   flex-direction: column;
+  margin-top: 120px;
 }
 
 .party-text {
@@ -111,7 +112,9 @@ header h2 {
   font-size: 18px;
   line-height: 30px;
 }
-
+.joint-btn {
+  padding-left: 40px;
+}
 .party-text a {
   padding-top: 48px;
   color: #fff;
@@ -119,6 +122,7 @@ header h2 {
   font-weight: 700;
   text-decoration: none;
   display: block;
+  margin-left: 40px;
 }
 
 /* --------- mid night party section style end------------- */
@@ -164,39 +168,155 @@ header h2 {
   transform: scale(1.2);
 }
 
-
 /* --------- main section style end------------- */
 
 /* --------- bonus section style start------------- */
-.places{
+.places {
   width: 100%;
   height: 482px;
-  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   margin-top: 120px;
   border-radius: 5px;
   text-align: center;
   padding: 100px 0 0 0;
 }
-.join-now-btn{
+.join-now-btn {
   background: #f00;
   display: inline-block;
   padding: 16px 32px;
   font-size: 20px;
-  color: #FFF;
+  color: #fff;
   margin-top: 64px;
   border-radius: 10px;
   font-weight: 700;
 }
-.places-text{
+.places-text {
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
 }
-.places-text span{
+.places-text span {
   color: red;
 }
-/* --------- bonus section style start------------- */
+.left-soon {
+  width: 393px;
+}
+.coming-soon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-soon h3 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.left-soon h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 17px;
+}
+.newyearimg2024 {
+  width: 140px;
+  margin-top: 43px;
+}
+.coming-soon-right h4 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+.middle-soon {
+  border: 10px solid red;
+  border-radius: 50%;
+}
+.middle-soon img {
+  width: 364px;
+  height: 364px;
+  padding: 25px;
+}
+
+.coming-soon-right {
+  width: 276px;
+}
+
+.holiday {
+  text-align: center;
+  margin-top: 120px;
+}
+.functional-text {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.exiciting-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.holiday-title {
+  color: #f00;
+  font-size: 72px;
+  font-weight: 900;
+}
+.sale50 {
+  font-size: 72px;
+  font-weight: 900;
+  font-style: italic;
+  color: #f00;
+  padding-left: 15px;
+}
+
+.sale-text {
+  padding-left: 15px;
+  font-size: 72px;
+}
+
+/* ---------image style secction start------------- */
+
+.img-style-section {
+  position: relative;
+  height: 663;
+  width: 1320px;
+  background-image: url("./assets/redbg.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: 120px;
+}
+
+.modelimg {
+  position: absolute;
+  right: 0;
+  bottom: 34%;
+  width: 429px;
+  height: 433px;
+}
+
+.off50 {
+  position: absolute;
+  z-index: 1;
+  bottom: 50%;
+  right: 25%;
+  width: 206px;
+  height: 206px;
+}
+
+.group75 {
+  z-index: 1;
+}
+/* ---------image style secction end------------- */
+/* --------- bonus section style end------------- */
 
 /* --------- subscription section style start------------- */
 
@@ -270,6 +390,7 @@ footer {
   width: 100%;
   height: 600px;
   padding: 120px 140px;
+  margin-top: 120px;
 }
 
 .footer-contact-info {
@@ -277,21 +398,21 @@ footer {
   justify-content: space-between;
 }
 
-.left-contact-info p{
+.left-contact-info p {
   line-height: 40px;
   font-size: 24px;
   font-weight: 500;
   display: block;
 }
-.contact-info{
+.contact-info {
   display: flex;
   align-items: left;
   justify-content: left;
 }
-.contact-info span{
+.contact-info span {
   display: block;
 }
-.contact-info img{
+.contact-info img {
   width: 24px;
   margin-right: 18px;
 }
@@ -300,22 +421,25 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  margin-top: 50px;
 }
-.footer-icon-section{
-  margin-top: 100px;
 
-}
-.footer-logo img{
+.footer-logo img {
   width: 24px;
 }
-.copyright-section{
+.copyright-section {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
 }
-.copyright-section p{
+.copyright-section p {
   display: block;
   font-size: 24px;
   font-weight: 500;
+}
+
+.line hr {
+  margin-top: 50px;
+  border: 0.2px solid rgba(255, 255, 255, 0.15);
 }
 /* --------- footer section style end------------- */
