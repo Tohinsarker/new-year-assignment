@@ -12,6 +12,9 @@ body {
   margin-top: 50px;
 }
 
+
+/* --------- header section style------------- */
+
 header {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("./assets/BannerImage.png");
@@ -36,3 +39,139 @@ header h2 {
   font-size: 72px;
   font-weight: 700;
 }
+/* --------- header section style------------- */
+
+
+
+/* --------- discount section style------------- */
+
+.discount-text{
+    text-align: center;
+    margin-top: 120px;
+}
+.discount-text h1{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+/* --------- discount section style------------- */
+.discount-text p{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+}
+.discount-text h4{
+    font-weight: 700;
+    font-size: 48px;
+    color: #070211;
+    margin-top: 16px;
+}
+
+.new-year-img{
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-year-img img{
+   width: 802;
+   height: 500px;
+}
+/* --------- discount section style------------- */
+
+
+/* --------- mid night party section style------------- */
+
+
+
+
+
+.midnight-party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+      url("./assets/Vectorrr.png");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .party-text{
+    padding:15% 0% 0% 15%;
+  }
+
+  .party-text h2{
+    font-size: 64px;
+    line-height: 88px;
+    font-weight: 900;
+    letter-spacing: 8px;
+  }
+  .party-text p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+.party-text a{
+    padding-top: 48px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* --------- mid night party section style end------------- */
+
+
+  /* --------- main section style start------------- */
+
+  .main{
+    margin-top: 120px;
+  }
+
+
+  .main-content-text h5{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    
+  }
+  .main-content-text h4{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 16px;
+  }
+
+
+  .main-content-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 900;
+    padding: 16px 0 48px 0;
+    line-height: 32px;
+  }
+.products-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+  
+  /* --------- main section style end------------- */
+
+
+  /* --------- subscription section style start------------- */
+
+  
+
+
+  /* --------- subscription section style end------------- */
+
